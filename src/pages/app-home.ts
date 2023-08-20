@@ -70,8 +70,8 @@ export class AppHome extends LitElement {
   share() {
     if ((navigator as any).share) {
       (navigator as any).share({
-        title: 'PWABuilder pwa-starter',
-        text: 'Check out the PWABuilder pwa-starter!',
+        title: 'Noneldan PWABuilder pwa-starter',
+        text: 'This is a PWA App for Noneldan',
         url: 'https://github.com/pwa-builder/pwa-starter',
       });
     }
@@ -89,8 +89,8 @@ export class AppHome extends LitElement {
             </div>
 
             <p>
-              For more information on the PWABuilder pwa-starter, check out the
-              <a href="https://docs.pwabuilder.com/#/starter/quick-start">
+              To access the web version, check out the
+              <a href="https://app.noneldan.com/public">
                 documentation</a>.
             </p>
 
