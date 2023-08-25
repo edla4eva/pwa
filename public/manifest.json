@@ -1,7 +1,7 @@
 {
   "id": "/",
   "scope": "/",
-  "name": "PWA Starter",
+  "name": "PWA Starter from Keminsoft",
   "display": "standalone",
   "start_url": "/",
   "short_name": "starter",
