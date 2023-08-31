@@ -21,7 +21,12 @@
     "urlpattern-polyfill": "^7.0.0",
     "workbox-build": "^6.5.2",
     "workbox-core": "^6.5.2",
-    "workbox-precaching": "^6.5.2"
+    "workbox-precaching": "^6.5.2",
+    "@material/mwc-textfield": "^0.27.0",
+    "@material/mwc-checkbox": "^0.27.0",
+    "@material/mwc-button": "^0.27.0",
+    "@material/mwc-formfield": "^0.27.0",
+    "@lit-labs/motion": "^1.0.4"
   },
   "devDependencies": {
     "typescript": "^5.0.4",

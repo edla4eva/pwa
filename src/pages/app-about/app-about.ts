@@ -28,16 +28,14 @@ export class AppAbout extends LitElement {
         <h2>About Page</h2>
 
         <sl-card>
-          <h2>Did you know?</h2>
+          <h2>Mobile App Information Card</h2>
 
-          <p>PWAs have access to many useful APIs in modern browsers! These
-            APIs have enabled many new types of apps that can be built as PWAs, such as advanced graphics editing apps, games,
-            apps that use machine learning and more!
+          <p>This app will be used to enter data into the database, set reminders and automatically
+              alert users
           </p>
 
           <p>Check out <a
-              href="https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/handle-files">these
-              docs</a> to learn more about the advanced features that you can use in your PWA</p>
+              href="https://app.nodeldantravels.com/public</a> to learn more about the database</p>
         </sl-card>
   </main>
     `;

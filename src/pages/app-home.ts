@@ -70,9 +70,9 @@ export class AppHome extends LitElement {
   share() {
     if ((navigator as any).share) {
       (navigator as any).share({
-        title: 'Noneldan PWABuilder pwa-starter',
-        text: 'This is a PWA App for Noneldan',
-        url: 'https://github.com/pwa-builder/pwa-starter',
+        title: 'Noneldan Mobile App',
+        text: 'This is a Mobile App for Noneldan',
+        url: 'https://app.noneldantravels.com/public',
       });
     }
   }
@@ -90,17 +90,12 @@ export class AppHome extends LitElement {
 
             <p>
               To access the web version, check out the
-              <a href="https://app.noneldan.com/public">
-                documentation</a>.
+              <a href="https://app.noneldantravels.com/public">
+                link</a>.
             </p>
 
             <p id="mainInfo">
-              Welcome to the
-              <a href="https://pwabuilder.com">PWABuilder</a>
-              pwa-starter! Be sure to head back to
-              <a href="https://pwabuilder.com">PWABuilder</a>
-              when you are ready to ship this PWA to the Microsoft Store, Google Play
-              and the Apple App Store!
+              Welcome to the Mobile App.
             </p>
 
             ${'share' in navigator
@@ -109,29 +104,27 @@ export class AppHome extends LitElement {
           </sl-card>
 
           <sl-card id="infoCard">
-            <h2>Technology Used</h2>
+            <h2>Features</h2>
 
             <ul>
               <li>
-                <a href="https://www.typescriptlang.org/">TypeScript</a>
+                <a href="">View Tasks</a>
               </li>
 
               <li>
-                <a href="https://lit.dev">lit</a>
+                <a href="">Enter Tasks</a>
               </li>
 
               <li>
-                <a href="https://shoelace.style/">Shoelace</a>
+                <a href="">Set Reminders</a>
               </li>
 
-              <li>
-                <a href="https://github.com/thepassle/app-tools/blob/master/router/README.md"
-                  >App Tools Router</a>
-              </li>
             </ul>
           </sl-card>
 
           <sl-button href="${resolveRouterPath('about')}" variant="primary">Navigate to About</sl-button>
+          <hr />
+          <sl-button href="${resolveRouterPath('todo')}" variant="primary">Navigate to Todos</sl-button>
         </div>
       </main>
     `;

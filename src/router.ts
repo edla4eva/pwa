@@ -30,9 +30,19 @@ export const router = new Router({
           lazy(() => import('./pages/app-about/app-about.js')),
         ],
         render: () => html`<app-about></app-about>`
+      },
+      {
+        path: resolveRouterPath('todo'),
+        title: 'Todos',
+        plugins: [
+          lazy(() => import('./pages/app-todo.js')),
+        ],
+        render: () => html`<app-todos></app-todos>`
       }
     ]
-  });
+});
+  
+
 
   // This function will resolve a path with whatever Base URL was passed to the vite build process.
   // Use of this function throughout the starter is not required, but highly recommended, especially if you plan to use GitHub Pages to deploy.
